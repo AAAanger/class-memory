@@ -1,0 +1,26 @@
+{
+  "name": "class-memory",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "课堂记忆库 —— 拍下的板书按课表自动归类，期末按课程翻着复习",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "test": "node scripts/test-timetable.mjs && node scripts/test-timetable-import.mjs"
+  },
+  "dependencies": {
+    "exifr": "^7.1.3",
+    "idb": "^8.0.4",
+    "jszip": "^3.10.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.4",
+    "vite": "^8.3.5"
+  }
+}

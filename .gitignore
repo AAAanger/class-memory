@@ -1,0 +1,21 @@
+# 依赖和构建产物
+node_modules/
+dist/
+
+# npm 缓存（某些环境需要把缓存放在项目里）
+.npm-cache/
+
+# 本地配置：里面有 API Key，绝对不要提交
+*.local
+.env
+.env.local
+
+# 生成的二维码：内容是本机局域网 IP，换网络就失效，随时可重新生成
+二维码*.png
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+
+# 临时导出的公钥（方便复制，用完可删）
+ssh公钥.txt

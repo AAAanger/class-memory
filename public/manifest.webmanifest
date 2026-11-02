@@ -1,0 +1,15 @@
+{
+  "name": "课堂记忆库",
+  "short_name": "记忆库",
+  "description": "拍下的板书按课表自动归类，期末按课程翻着复习",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7f9",
+  "theme_color": "#2563eb",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
